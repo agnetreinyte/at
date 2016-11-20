@@ -35,6 +35,7 @@
         color: white;
     }
     .about_button{
+        float: right;
         font-size: 20pt;
         font-family: Segoe UI;
         font-weight: lighter;
