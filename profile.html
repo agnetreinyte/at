@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+          <title>Whiteboard</title>
+        </head>
+        <body class="body_about">
+
+        <canvas id="canvas">
+          
+        </canvas>
+        <script src="main.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+        <input type="checkbox" id="move_nav">
+      
+            <div class="hide"></div>
+            <div class="side_nav_bar">
+
+            <header class="header_small">Whiteboard</header>
+            <div id="circle">
+              <div class="vertical"><p>[Profile picture]</p></div>
+            </div>
+            [User name]<br>
+            
+                 <ul>
+                   <li><label id="toolkit" class="menu_a" for="move_nav">Open toolkit</label></li>
+                   <li><a class="menu_a" href="#create_board">Create a Whiteboard</a></li>
+                   <li type="my_boards"><a class="menu_a" href="#">My Whiteboards</a>
+                    <div class="boards_drop_side">
+                      <div class="drop_side">
+                          <ul>
+                            <li><a href="#">board1</a></li>
+                            <li><a href="#">board2</a></li>
+                            <li><a href="#">board3</a></li>
+                          </ul>
+                      </div>
+                    </div>
+                   </li>
+                   <li type="profile"><a class="menu_a" href="#">Edit profile</a></li>
+                   <li></li>
+                 </ul>
+
+
+                 
+            </div>
+            <div class="tool_bar">
+              <label for="move_nav" class="material-icons">menu</label>
+              <ul>
+                <li><a href="#">brush</a></li>
+                <li><a href="#">note</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">tool2</a></li>
+              </ul>
+            </div>
+
+
+        <div id="create_board" class="modal">
+            <div class="modal-dialog">
+             <div class="modal-content">
+               <a href="profile.html" class="closebtn">×</a>
+               <div class="container">
+               <header class="header_small">Create a new Whiteboard</header>
+               <form>
+                Name: <input class="email_pass" type="text" name="board_name"><br>
+                <p></p>
+                Privacy: <label> Private: <input type="radio" value="private" name="privacy"> </label>
+                         <label> Public: <input type="radio" value="public" name="privacy"></label><br>
+                         <input class="login_button" type="submit" value="Create"><a href="#"></a>
+               </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </body>
+    </html>

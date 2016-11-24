@@ -5,20 +5,36 @@
     	<link rel="stylesheet" href="style.css" type="text/css">
       </head>
       <body class="body">
-      <header class="header" >Welcome to Whiteboard.</header>
+      
 
-           <div class="navigation"></div>
+           <div class="navigation">
+           	<input class="search" type="search" placeholder=" Search">
+           </div>
 
-           <input class="search" type="search" placeholder=" Search">
+           
 
-            <div class="login">
+            <div class="transparent" class="login">
+                <header class="header" >Welcome to Whiteboard.</header>
            	    <input class="email_pass" type="e-mail" placeholder=" E-mail"><br>
             	<input class="email_pass" type="password" placeholder=" Password"><br>
-                <button class="login_button" type="button"><a class="login_button" href="profile.html">LOGIN</a></button>
-            </div>
+                <button class="login_button" type="button"><a href="profile.html">LOGIN</a></button>
+                <p></p>
+                
+                <a for="register" class="register" type="submit" href="register.html">Register</a>
+                <p></p>
+                </div>
 
-           <div class=".about_button">
-                <button class="about_button" type="button"><a class="about_button" href="about.html">ABOUT</a></button>
+                
+            </div>
+           <input type="checkbox" id="slide_about">
+           <div class="about_bar">
+                <label for="slide_about" class="about_button">ABOUT</label>
+                <div class="about_bar_content">
+            <div class="transparent">
+             <h class="header"> What is Whiteboard?</h>
+             <p>WHITEBOARD is an awesome thing. It allows you do cool things, like draw, add sticky notes, pictures, videos and even playlists. THIS IS SUPPOSED TO BE A SLIDE UP PAGE.</p>
+            </div>
+                </div>
            </div>
 
       </body>
