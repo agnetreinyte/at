@@ -1,19 +1,9 @@
 # Hello
 HELLO cruel world of web programming!
 # What my project is about
-I have actually <strong>NO</strong> idea.
-<br>But I'm really into the idea of multiple user black(white)board kind of gallery/notepad/event planner/stuff sharing platform.
-<br>A user can be included in many boards.
-<br>It includes widgets such as:
-<ul>
-    <li>event planner with a callendar, comment section etc</li>
-    <li>sticky notes with a photo/video uploading or linking possibility</li>
-    <li>drawing and text tools</li>
-    <li>music player</li>
-    <li>loads of more cool stuff</li>
-</ul>
-<p>
-I am really trying to come up with all the specific ideas, so the list is to be continued.
-</p>
-<br> So basically it would be a web version of a kitchen fridge: leave all kinds of messages so people that have access could read/respond. It would allow drawing/writing messages in real time.
-<br> All of this kind of boards that exist are more on a proffesional level, for work or for studies, or offer only drawing. I want to make commercial version of it. I'm looking at something that would basically connect your friends FB walls into one.
+<p>My project is called Whiteboard. It’s a web application for drawing, adding sticky notes with pictures, videos and playlists. This application allows to create multiple whiteboards which can be either private or public. All public board are available to view for everyone, even unregistered users.</p>
+<p>A user is able to add other users to the whiteboard: together they can exchange messages, comment each others drawings and other publications. The main idea of this application – simply to join user’s friends’ social media walls into one Whiteboard.
+Each public whiteboard is tagged and can be viewed by everyone, even unregistered users. Most viewed whiteboards are displayed on the index page. A user is able to manage whiteboards members: delete, make them administrators, confirm requests to join. Also, user can send a request for any board (if it’s private user has to know the boards name).</p>
+<p>There already exist such applications, but they’re more on a professional level and are used for working or don’t include widgets for adding media and only offers drawing without saving. This application is supposed to be user-friendly, but also include more possibilities to express ones creativity.</p>
+<p>Target audience of this application would be any age social media users - easy to use. Also, I included an option for a whiteboard to be public, which means, one of target audience’s segments could be any kind of artists, a whiteboard could serve like a blog, which, of course, can be followed when registered.</p>
+<p>Each publication (drawing, note, link, etc.) on a whiteboard can be seen of whiteboard’s members and be commented. Simply talking, this whiteboard is like improved digital version of kitchen fridge: concept is to leave publications in the most important place, where everyone can see them (it doesn’t freeze things though).</p>
